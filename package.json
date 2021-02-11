@@ -1,0 +1,19 @@
+{
+  "name": "notification-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "noc.js",
+  "dependencies": {
+    "commander": "^6.2.1",
+    "moment": "^2.29.1",
+    "node-notifier": "^9.0.0",
+    "node-schedule": "^2.0.0",
+    "sleep": "^6.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
