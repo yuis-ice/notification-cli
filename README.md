@@ -8,7 +8,7 @@ Minimalistic Command Line Notification Application under 50 Lines
 This will nofity you when 2021 February 20, PM 6:00.
 
 ```
-./noc.js -d 2021022018 --desktop
+./noc.js -d 2021022018 --desktop # for desktop notification
 ```
 
 Very much minimalistic.
