@@ -45,15 +45,18 @@ This will only notify you by command line console output:
 noc -d 2021022018
 ```
 
-The output be like:
+<details>
+  <summary>The output be like:</summary>
 
-```
-$ noc -d 202102120234
-2021-02-12T02:33:16+09:00 Jobs started...
-2021-02-12T02:33:16+09:00 You will be notified at: 2021-02-12T02:34:00+09:00
-2021-02-12T02:34:00+09:00 Notified.
-$
-```
+  ```
+  $ noc -d 202102120234
+  2021-02-12T02:33:16+09:00 Jobs started...
+  2021-02-12T02:33:16+09:00 You will be notified at: 2021-02-12T02:34:00+09:00
+  2021-02-12T02:34:00+09:00 Notified.
+  $
+  ```
+
+</details>
 
 You can abbreviate your seconds, minutes, hours and so on:
 
