@@ -1,19 +1,37 @@
 {
   "name": "notification-cli",
-  "version": "1.0.0",
-  "description": "",
-  "main": "noc.js",
+  "version": "1.0.3",
+  "description": "Minimalistic Command Line Notification Application under 50 Lines",
+  "main": "noc",
+  "bin": {
+    "noc": "./noc"
+  },
   "dependencies": {
     "commander": "^6.2.1",
     "moment": "^2.29.1",
     "node-notifier": "^9.0.0",
-    "node-schedule": "^2.0.0",
-    "sleep": "^6.3.0"
+    "node-schedule": "^2.0.0"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "homepage": "https://github.com/yuis-ice/notification-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuis-ice/notification-cli.git"
+  },
+  "keywords": [
+    "notifications",
+    "nodejs",
+    "cli",
+    "reminder",
+    "command-line",
+    "scheduler",
+    "cli-app",
+    "command-line-tool",
+    "time-management"
+  ],
+  "author": "Fumiya Arisaka <yuis.twitter@gmail.com>",
+  "license": "BSD-3-Clause"
 }
