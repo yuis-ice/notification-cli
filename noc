@@ -21,7 +21,7 @@ program
   ;
   if (! process.argv.slice(2).length) program.help() ;
 
-const sleep = require('sleep');
+// const sleep = require('sleep');
 const exec = require('child_process').exec;
 const moment = require('moment');
 const schedule = require('node-schedule');
