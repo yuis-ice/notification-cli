@@ -5,7 +5,7 @@ Minimalistic Command Line Notification Application under 50 Lines
 
 ## Quick Start
 
-This will nofity you when 2021 February 20, PM 6:00.
+This will notify you when 2021 February 20, PM 6:00.
 
 ```
 ./noc.js -d 2021022018 --desktop # for desktop notification
@@ -103,7 +103,7 @@ Options:
   -m, --message <text>          specify message (default: ":)")
   -c, --exec-command <command>  specify command to run (e.g. firefox.exe ringtone.mp3) (default: null)
   -l, --log <text>              specify console log message (default: "Notified.")
-  -H, --hide-log                hide infomation logs
+  -H, --hide-log                hide information logs
   -h, --help                    display help for command
 ```
 
